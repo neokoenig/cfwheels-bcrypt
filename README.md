@@ -1,5 +1,7 @@
 # cfwheels-bcrypt
 
+[![Build Status](https://travis-ci.org/neokoenig/cfwheels-bcrypt.svg?branch=master)](https://travis-ci.org/neokoenig/cfwheels-bcrypt)
+
 CFWheels 2.x plugin helper methods for the bCrypt Java Lib
 
 Note, this plugin requires CFWheels 2.x due to the automatic java mapping
