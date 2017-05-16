@@ -8,7 +8,7 @@ component hint="bCrypt" output="false" mixin="global"
 	* BCrypt Hash Password
 	*
 	* [section: Plugins]
-	* [category: Authentication]
+	* [category: bCrypt]
 	*
 	* @password The unencrypted password
 	* @salt An instance of bCryptGenSalt()
@@ -21,7 +21,7 @@ component hint="bCrypt" output="false" mixin="global"
 	* BCrypt Generate Salt
 	*
 	* [section: Plugins]
-	* [category: Authentication]
+	* [category: bCrypt]
 	*
 	* @complexity Gensalt's log_rounds parameter
 	*/
@@ -33,7 +33,7 @@ component hint="bCrypt" output="false" mixin="global"
 	* Compare two passwords
 	*
 	* [section: Plugins]
-	* [category: Authentication]
+	* [category: bCrypt]
 	*
 	* @candidate The unencrypted password
 	* @hashed The hash to compare to
